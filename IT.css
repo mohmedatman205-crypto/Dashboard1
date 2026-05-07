@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #380707;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(222, 27, 27);
+    display: flex;
+}
+.img-mo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+.img-mo img{
+    width: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile h2{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.menu{
+    background-color: rgb(251, 248, 250);
+    width: 70px;
+    height: 100%vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+.menu:hover{
+    width: 500px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+ display: block;
+ text-decoration: none;
+ padding: 10px;
+ margin: 10px;
+ border-radius: 8px;
+ display: flex;
+ align-items: center;
+ gap: 40px;
+ transition: .5s;
+}
+ul li a:hover {
+    background-color: rgb(67, 73, 73);
+
+}
+.log-out{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+.log-out a{
+    background-color: red;
+}
+ul li a i{
+    font-size: 30px;
+}
+.content{
+
+    width: 100%;
+    margin: 10px;
+}
+.title-info{
+    background: #f9f7f7;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.date-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.date-info .box{
+background-color: #fff;
+height: 150px;
+flex-basis: 150px;
+flex-grow: 1;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.date-info .box:hover{
+    background-color:rgb(67, 73, 73);
+}
+.date-info .box i{
+    font-size: 40px;
+}
+.date-info .box .date{
+    text-align: center;
+}
+.date-info .box span{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+    
+}
+th,td {
+    background-color: #a79696;
+    padding: 6px;
+    border-radius: 8px;
+
+}
+th{
+    background-color: #d95e5e;
+}
+.Price, .Count{
+    padding: 6px;
+    border-radius: 6px;
+}
+.Price{
+
+}
